@@ -22,8 +22,8 @@
       loadMap() {
         // 通过utils里的BDMap.js调用百度地图API功能
         let mapUrl = [
-          'https://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js',
-          "https://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"
+          '//api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js',
+          "//api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"
         ];
         BDMap(mapUrl).then(BMap => {
           var map = new BMap.Map("map");
